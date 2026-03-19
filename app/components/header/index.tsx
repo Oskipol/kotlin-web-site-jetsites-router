@@ -1,4 +1,3 @@
-// app/components/header/index.tsx
 import React, { useEffect, useState } from "react";
 
 export function Header() {
