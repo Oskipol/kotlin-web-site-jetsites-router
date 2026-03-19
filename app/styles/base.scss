@@ -30,11 +30,14 @@ body {
 }
 
 
+a {
+    color: $base-link-color;
+    text-decoration: underline
+}
 
 a:hover {
     color: $base-link-hover-color;
 }
-
 .hidden {
     display: none !important;
 }

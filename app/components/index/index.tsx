@@ -5,6 +5,8 @@ import '@rescui/typography/lib/font-jb-sans-auto.css';
 import hljs from 'highlight.js/lib/core';
 import kotlin from 'highlight.js/lib/languages/kotlin';
 import 'highlight.js/styles/github.css';
+import { Header } from '../header';
+import { Footer } from '../footer';
 hljs.registerLanguage('kotlin', kotlin);
 
 import {ThemeProvider} from '@rescui/ui-contexts';
@@ -30,7 +32,9 @@ function OverviewPageContent() {
 
 export const OverviewPage = () => (
     <ThemeProvider theme="dark">
+        <Header/>
         <OverviewPageContent/>
+        <Footer/>
     </ThemeProvider>
 )
 
